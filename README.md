@@ -10,11 +10,11 @@
 
 * Open chrome extension
 
-  'chrome://extensions/'
+  `chrome://extensions/`
 
 * Read the cloned repository directory.
 
-  ![desc](./img/desc.png)
+  ![desc](./img/desc2.png)
 
 ## Todo
 * One icon, one random color.
