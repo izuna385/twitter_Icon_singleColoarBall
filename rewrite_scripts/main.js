@@ -28,11 +28,13 @@ function DOMModificationHandler(){
 }
 $('#timeline').bind('DOMSubtreeModified.event1',DOMModificationHandler);
 
-
-
+var coloardata= [randomColor0, randomColor1, randomColor2,randomColor3]
+var randomColor = choose_at_random(coloardata)
 
 function modify(){
-  $("img").map(function(){ // What is difference between .each and .map
+
+
+  $("img").each(function(index){ // What is difference between .each and .map
       // https://stackoverflow.com/questions/3196613/jquery-determine-if-ul-has-class-or-another-one
 
         if ($('img').hasClass('Avatar Avatar--size32') ||
@@ -50,8 +52,7 @@ function modify(){
 
           // http://shanabrian.com/web/jquery/image01.php
 
-          var coloardata= [randomColor0, randomColor1, randomColor2,randomColor3]
-          var randomColor = choose_at_random(coloardata)
+
           var stylechar = "background-color:" + randomColor
            $("img").attr('style',stylechar);
            $("img").attr('src','skelton.png');
