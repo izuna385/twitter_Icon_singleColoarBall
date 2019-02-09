@@ -1,4 +1,4 @@
-# Twitter Icon Single-Coloar-Ball Converter
+# Twitter Icon Single-Color-Ball Converter
 * For eliminating egos.
 
 ## Demo
