@@ -3,6 +3,16 @@
 
 //TODO : deal with newly loaded tweets
 
+var randomColor0 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
+var randomColor1 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
+var randomColor2 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
+var randomColor3 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
+var randomColor4 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
+var randomColor5 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
+var randomColor6 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
+
+
+
 function choose_at_random(arrayData) {
   var arrayIndex = Math.floor(Math.random() * arrayData.length);
   return arrayData[arrayIndex]; }
@@ -22,7 +32,7 @@ $('#timeline').bind('DOMSubtreeModified.event1',DOMModificationHandler);
 
 
 function modify(){
-  $("img").each(function(){
+  $("img").map(function(){ // What is difference between .each and .map
       // https://stackoverflow.com/questions/3196613/jquery-determine-if-ul-has-class-or-another-one
 
         if ($('img').hasClass('Avatar Avatar--size32') ||
@@ -39,13 +49,6 @@ function modify(){
           // https://peacepopo.net/blog-entry-161.html
 
           // http://shanabrian.com/web/jquery/image01.php
-          var randomColor0 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
-          var randomColor1 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
-          var randomColor2 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
-          var randomColor3 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
-          var randomColor4 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
-          var randomColor5 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
-          var randomColor6 = "#" + Math.floor(Math.random() * 16777215).toString(16);          // Rewrite image to random colors
 
           var coloardata= [randomColor0, randomColor1, randomColor2,randomColor3]
           var randomColor = choose_at_random(coloardata)
