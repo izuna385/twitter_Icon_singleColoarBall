@@ -1,7 +1,7 @@
 # Twitter Icon Single-Coloar-Ball Converter
 
 ## Demo
-![demo](demo.gif)
+![demo](./img/demo.gif)
 
 ## How to install
 * Clone this repository
@@ -12,6 +12,9 @@
 
   'chrome://extensions/'
 
-* Read the cloned repository.
+* Read the cloned repository directory.
 
-  ![desc](desc.png)
+  ![desc](./img/desc.png)
+
+## Todo
+* One icon, one random color.
