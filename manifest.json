@@ -8,7 +8,7 @@
   "content_scripts": [
     {
     "css": ["content_scripts/styles.css"],
-      "js": ["jquery-3.3.1.min.js","script.js"],
+      "js": ["jquery-3.3.1.min.js","rewrite_scripts/main.js","rewrite_scripts/main.css"],
     "matches": ["https://*.twitter.com/*"],
     "run_at": "document_start"
   }
