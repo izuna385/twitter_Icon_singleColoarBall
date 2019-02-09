@@ -1,4 +1,5 @@
 # Twitter Icon Single-Coloar-Ball Converter
+* For eliminating egos.
 
 ## Demo
 ![demo](./img/demo.gif)
