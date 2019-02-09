@@ -9,7 +9,7 @@
     {
       "js": ["jquery-3.3.1.min.js","rewrite_scripts/main.js"],
     "matches": ["https://*.twitter.com/*"],
-    "run_at": "document_start"
+    "run_at": "document_end"
   }
 ]
 
