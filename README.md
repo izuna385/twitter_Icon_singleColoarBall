@@ -21,6 +21,6 @@
 * One icon, one random color.
 
 ## Thanks
-* [Aidan Breen](https://medium.com/@aidobreen) gave me a great advices.
+* [Aidan Breen](https://medium.com/@aidobreen) gave me a great advice.
 
 * [Fixing Twitter with a chrome extension](https://medium.com/@aidobreen/fixing-twitter-with-a-chrome-extension-1f53320f5a01)
